@@ -1,5 +1,8 @@
 <template>
   <div>
+
+    <div class="background" />
+
     <b-navbar toggleable="md" type="dark">
 
       <b-navbar-brand class="ml-3">IAT 343</b-navbar-brand>
@@ -20,12 +23,36 @@
       </b-collapse>
     </b-navbar>
 
-    <div>
-      <nuxt/>
-    </div>
+    <nuxt/>
   </div>
 </template>
 
 <style>
+body {
+  font-family: 'Raleway', sans-serif;
+}
 
+h1 {
+  font-family: 'Satisfy', cursive;
+}
+
+.background {
+  background: #270f36;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#270f36', endColorstr='#fd9d7f', GradientType=0);
+  /* IE6-9 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1;
+}
 </style>

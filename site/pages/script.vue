@@ -1,13 +1,12 @@
 <template>
-    <b-jumbotron header="Page under construction" lead="This link is being worked on and will be coming soon">
-        <p>Visit another page</p>
-        <b-btn variant="primary" to="/">Go back to home</b-btn>
-    </b-jumbotron>
+    <div>
+        <b-container class=""
+    </div>
 </template>
 
 <script>
 export default {
-
+  layout: 'default'
 }
 </script>
 
