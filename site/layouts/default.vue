@@ -13,7 +13,7 @@
       <!--navigation tabs-->
       <b-collapse is-nav id="nav_collapse">
         <b-nav is-nav-bar class="ml-auto">
-          <b-nav-item to="/">Home</b-nav-item>
+          <b-nav-item to="/" exact>Home</b-nav-item>
           <b-nav-item to="/script">Script</b-nav-item>
           <b-nav-item to="/concept">Concepts</b-nav-item>
           <b-nav-item to="/storyboard" disabled>Storyboard</b-nav-item>
@@ -24,6 +24,7 @@
     </b-navbar>
 
     <nuxt/>
+
   </div>
 </template>
 

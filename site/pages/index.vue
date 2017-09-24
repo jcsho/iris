@@ -8,7 +8,7 @@
         </b-col>
       </b-row>
 
-      <b-row align-h="center">
+      <b-row align-h="center" class="mt-4">
         <b-col cols="9">
           <h4>Meet the Team</h4>
         </b-col>
@@ -26,26 +26,39 @@
           </b-col>
       </b-row>
 
+      <b-row align-h="center" class="mt-4">
+        <b-col cols="9">
+          <h4>Updates</h4>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center">
+        <b-col cols="8">
+          <ul>
+            <li>2017-09-23: basic script outline</li>
+          </ul>
+        </b-col>
+      </b-row>
+
     </b-container>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  },
   layouts: 'default'
 }
 </script>
 
 <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1em;
+}
 .main {
   color: white;
   background-color: rgba(225, 225, 225, 0.3);
-  border-radius: 1rem;
-  
+  border-radius: 1rem; 
 }
 </style>
