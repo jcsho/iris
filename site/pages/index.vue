@@ -33,7 +33,7 @@
       </b-row>
 
       <b-row align-h="center">
-        <b-col cols="8">
+        <b-col cols="9">
           <ul>
             <li>2017-09-23: basic script outline</li>
           </ul>
