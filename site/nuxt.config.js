@@ -10,8 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'IAT 343 Project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Raleway:300'}, { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Satisfy'}
+      { rel: 'icon', type: 'image/x-icon', href: '/iris1.ico' },
     ]
   },
   /*

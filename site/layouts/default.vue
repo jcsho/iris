@@ -34,7 +34,8 @@ body {
 }
 
 h1 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'League Script', cursive;
+  font-size: 10rem;
 }
 
 .background {
