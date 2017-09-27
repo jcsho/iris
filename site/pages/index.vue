@@ -35,6 +35,7 @@
       <b-row align-h="center">
         <b-col cols="9">
           <ul>
+            <li>2017-09-26: new concept art for characters and the setting</li>
             <li>2017-09-23: basic script outline</li>
           </ul>
         </b-col>
