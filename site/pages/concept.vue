@@ -41,7 +41,7 @@
 
       <b-row align-h="center" class="mt-2">
         <b-col cols="9">
-          <p>Iris sketch - colored</p>
+          <p>Iris concept art - colored</p>
         </b-col>
       </b-row>
 
@@ -96,6 +96,30 @@
       <b-row align-h="center" class="mt-2">
         <b-col cols="9">
           <p>Forest concept art</p>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center" class="mt-5">
+        <b-col cols="9">
+          <h2>Starry Skies</h2>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center" class="mt-3 mb-3">
+        <b-col cols="6">
+          <p>Starry sky is the theme of Iris' creation. All her imaginary creations are out of this world and the sky represents the limitless possibilities from Iris. However, her encounter with this boundless stars also signifies the end.</p>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center" class="mt-2">
+        <b-col cols="9">
+          <b-img src="/Starry Sky.png" alt="Setting Concept Art" fluid v-b-tooltip.hover.bottom title="Starry Sky Setting Concept - Ioana"/>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center" class="mt-2">
+        <b-col cols="9">
+          <p>Starry Sky concept art</p>
         </b-col>
       </b-row>
 
