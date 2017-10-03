@@ -9,9 +9,9 @@
         shapeType="star"
         :particleSize="3"
         :lineLinked="false"
-        :moveSpeed="0.5"
+        :moveSpeed="1"
         :hoverEffect="false"
-        :clickEffect="false" />
+        :clickEffect="false"/>
     </div>
 
     <b-navbar toggleable="md" type="dark">
@@ -71,4 +71,5 @@ h1 {
   height: 100%;
   z-index: -1;
 }
+
 </style>
