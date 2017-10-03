@@ -20,7 +20,7 @@
                 <b-col cols="8">
                     <p>
                         <em>
-                            “We are stardust come to life, waiting to explore…tbh I kinda forget the quote but like I really like Sammy’s so we can do with that one” – Neil deGrasse Tyson</em>
+                            “We are stardust come to life, waiting to explore…” – Neil deGrasse Tyson</em>
                     </p>
                 </b-col>
             </b-row>
