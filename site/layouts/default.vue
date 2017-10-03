@@ -1,7 +1,18 @@
 <template>
   <div>
 
-    <div class="background" />
+    <div class="background">
+      <vue-particles 
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="star"
+        :particleSize="3"
+        :lineLinked="false"
+        :moveSpeed="0.5"
+        :hoverEffect="false"
+        :clickEffect="false" />
+    </div>
 
     <b-navbar toggleable="md" type="dark">
 
@@ -49,12 +60,15 @@ h1 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#270f36', endColorstr='#fd9d7f', GradientType=0);
   /* IE6-9 */
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 </style>

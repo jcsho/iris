@@ -41,5 +41,8 @@ module.exports = {
   ],
   css: [
     '@/assets/css/main.css'
+  ],
+  plugins: [
+    { src: '~/plugins/vue-particles', ssr: false }
   ]
 }
