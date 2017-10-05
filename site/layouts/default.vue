@@ -40,10 +40,6 @@
 </template>
 
 <style>
-body {
-  font-family: 'Raleway', sans-serif;
-}
-
 h1 {
   font-family: 'League Script', cursive;
   font-size: 10rem;

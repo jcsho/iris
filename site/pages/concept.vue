@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <b-container class="mt-5 mb-5 pt-5 pb-5 concept">
+    <b-container class="mt-5 mb-5 pt-5 pb-5">
 
       <b-row align-h="center">
         <b-col cols="10">
@@ -135,10 +135,5 @@ export default {
 </script>
 
 <style>
-.concept {
-  color: white;
-  background-color: rgba(225, 225, 225, 0.3);
-  border-radius: 1rem; 
-}
 
 </style>

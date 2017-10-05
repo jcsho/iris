@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <b-container class="mt-5 pt-5 pb-5 main">
+    <b-container class="mt-5 mb-5 pt-5 pb-5">
       <b-row align-h="center">
         <b-col cols="10">
           <h1>Iris</h1>
@@ -57,10 +57,5 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0 1em;
-}
-.main {
-  color: white;
-  background-color: rgba(225, 225, 225, 0.3);
-  border-radius: 1rem; 
 }
 </style>
