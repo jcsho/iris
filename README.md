@@ -6,7 +6,8 @@ Simon Fraser University
 
 Course: IAT 343
 
-![alt text](https://github.com/justinhodev/iris/blob/master/landing.PNG, "Iris Landing Page")
+## Landing Page -
+![alt text](https://github.com/justinhodev/iris/blob/master/landing.PNG "Iris Landing Page")
 
 ## Changelog
 - 2017-10-05 - added particle js library, set floating stars for all views
