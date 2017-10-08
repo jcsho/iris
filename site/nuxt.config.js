@@ -23,11 +23,15 @@ module.exports = {
   ** Build configuration
   */
   build: {
+
+    vendor: ['vue-particles'],
     /*
     ** Run ESLint on save
     */
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      config.plugins = config.plugins.filter((plugin) => plugin.constructor.name !== 'UglifyJsPlugin')
+      
+      if (ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
