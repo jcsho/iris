@@ -1,5 +1,3 @@
-const BabiliPlugin = require('babili-webpack-plugin')
-
 module.exports = {
   /*
   ** Headers of the page
@@ -25,15 +23,11 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vue-particles'],
     /*
     ** Run ESLint on save
     */
     extend (config, ctx) {
       if (ctx.isClient) {
-        config.plugins = config.plugins.filter((plugin) => plugin.constructor.name !== 'UglifyJsPlugin')
-        config.plugins.push(new BabiliPlugin())
-        
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
@@ -50,6 +44,6 @@ module.exports = {
     '@/assets/scss/main.scss'
   ],
   plugins: [
-    { src: '~/plugins/vue-particles', ssr: false }
+    { src: '~/plugins/vue-particles', ssr: false}
   ]
 }
