@@ -32,7 +32,7 @@
                 <b-col cols="8">
                     <p>
                         <em>
-                            “Shoot for the moon. Even if you miss you will land among the stars” – Les Brown
+                            “Shoot for the moon. Even if you miss you'll land among the stars” – Les Brown
                         </em>
                     </p>
                 </b-col>

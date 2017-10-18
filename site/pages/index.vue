@@ -40,7 +40,7 @@
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/storyboard/3.5.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 5 - Storyboard</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
+                <p>The storyboard </p>
               </b-media>
             </nuxt-link>
 
@@ -54,15 +54,15 @@
 
             <nuxt-link to="/blog/week3">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
-                <b-img slot="aside" src="/img/concept/Forest-yellow.png" width="240" height="150" />
-                <h5 class="mt-0 mb-1">Week 3 - Environment</h5>
+                <b-img slot="aside" src="/img/ideation/over-the-garden-wall.jpg" width="240" height="150" />
+                <h5 class="mt-0 mb-1">Week 3 - Environment Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
               </b-media>
             </nuxt-link>
 
             <nuxt-link to="/blog/week2">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
-                <b-img slot="aside" src="/img/storyboard/3.5.png" width="240" height="150" />
+                <b-img slot="aside" src="/img/script-blank.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 2 - Script</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
               </b-media>
