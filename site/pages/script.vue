@@ -11,7 +11,9 @@
             <b-row align-h="center" class="mt-4">
                 <b-col cols="8">
                     <p>
-                        <em>“One day your life will flash before your eyes make sure it's worth watching” - Gerard Way</em>
+                        <em>
+                            “One day your life will flash before your eyes make sure it's worth watching” - Gerard Way
+                        </em>
                     </p>
                 </b-col>
             </b-row>
@@ -20,7 +22,18 @@
                 <b-col cols="8">
                     <p>
                         <em>
-                            “We are stardust come to life, waiting to explore…” – Neil deGrasse Tyson</em>
+                            “We are stardust come to life, waiting to explore…” – Neil deGrasse Tyson
+                        </em>
+                    </p>
+                </b-col>
+            </b-row>
+
+            <b-row align-h="center" class="mt-4">
+                <b-col cols="8">
+                    <p>
+                        <em>
+                            “Shoot for the moon. Even if you miss you will land among the stars” – Les Brown
+                        </em>
                     </p>
                 </b-col>
             </b-row>

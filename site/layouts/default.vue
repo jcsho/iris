@@ -40,11 +40,6 @@
 </template>
 
 <style>
-h1 {
-  font-family: 'League Script', cursive;
-  font-size: 10rem;
-}
-
 .background {
   background: #270f36;
   /* Old browsers */

@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'IAT 343 Project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/iris1.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/img/iris1.ico' },
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=Raleway:300'}, 
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css?family=League+Script'}
     ]
@@ -27,7 +27,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
-      if (ctx.isClient) {
+      if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
