@@ -1,6 +1,6 @@
 <template>
     <b-container class="mt-5 mb-5 pt-5 pb-5">
-        <b-row align-h="center" class="my-3">
+        <b-row align-h="center" class="mt-3 mb-5">
             <b-col xl="10">
                 <h1>Week 3 - Environment Design</h1>
             </b-col>
@@ -33,7 +33,7 @@
             </b-col>
         </b-row>
 
-        <b-row align-h="center" class="my-3">
+        <b-row align-h="center" class="mt-5 mb-3">
             <b-col xl="9">
                 <h2>Forest</h2>
             </b-col>

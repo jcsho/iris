@@ -46,7 +46,7 @@
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/storyboard/3.5.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 5 - Storyboard</h5>
-                <p>The storyboard is a culmination of the script and concept art combined to visualize important shots. An animatic is also created to explain design decisions and important parallels across multiple frames.</p>
+                <p>The storyboard is a culmination of the script and concept art combined to visualize important shots. An animatic is also created to explain the plot at which the shot is showing as well as the mood of the story.</p>
               </b-media>
             </nuxt-link>
 
@@ -54,8 +54,8 @@
             <nuxt-link to="/blog/week4">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/concept/Character Sheet Sketch Colored.jpg" width="240" height="150" />
-                <h5 class="mt-0 mb-1">Week 4 - Character Design</h5>
-                <p>Iris is portrayed as an innocent girl with a cheerful appearance. These character traits are materialized into Iris' concept with puffy cheeks and petite figure. Inspiration is also drawn from similar fairytales to enhance Iris' features.</p>
+                <h5 class="mt-0 mb-1">Week 4 - Character Concept</h5>
+                <p>Iris is portrayed as an innocent girl with a cheerful appearance. These character traits are materialized into Iris' concept with puffy cheeks and petite figure. Inspiration is drawn from similar fairytales to enhance Iris' childish features.</p>
               </b-media>
             </nuxt-link>
 
@@ -63,8 +63,8 @@
             <nuxt-link to="/blog/week3">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/ideation/over-the-garden-wall.jpg" width="240" height="150" />
-                <h5 class="mt-0 mb-1">Week 3 - Environment Design</h5>
-                <p>Parallels are drawn from reference materials in the creation of </p>
+                <h5 class="mt-0 mb-1">Week 3 - Environment Concept</h5>
+                <p>The environment concepts are critical in order to convey the correct mood and setting to the audience. Iris will only have two different environments; the two environment concepts are starkly contrasted between a murky and gloomy setting to the dazzling cosmic radiance.</p>
               </b-media>
             </nuxt-link>
 
@@ -73,7 +73,7 @@
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/script-blank.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 2 - Script</h5>
-                <p>The script takes the ideas of the inspirations further by refining the several </p>
+                <p>The script takes the ideas of the inspirations further by refining the several key moments from the ideation phase. The transition between reality and fantasy, the supernatural cosmic explosions, as well as the peripeteia ending are the key visuals we want to create in the animation.</p>
               </b-media>
             </nuxt-link>
 
@@ -82,7 +82,7 @@
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/ideation/steven-universe-starry-sky.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 1 - Ideation</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
+                <p>All good projects begin the creative process by researching background material as well as establishing a general direction to go in. This animation is founded upon the themes of celestial bodies and homonymic use of the word iris. From there we look for reference materials which we can use to create concept artwork.</p>
               </b-media>
             </nuxt-link>
           </ul>

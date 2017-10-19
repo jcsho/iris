@@ -3,13 +3,13 @@
 
     <b-row align-h="center">
       <b-col cols="10">
-        <h2>Character Concept</h2>
+        <h1>Character Concept</h1>
       </b-col>
     </b-row>
 
     <b-row align-h="center" class="mt-5">
       <b-col cols="9">
-        <h3>Main Character</h3>
+        <h2>Main Character</h2>
       </b-col>
     </b-row>
 
@@ -45,7 +45,7 @@
 
     <b-row align-h="center" class="mt-5">
       <b-col cols="9">
-        <h3>The Star Box</h3>
+        <h2>The Star Box</h2>
       </b-col>
     </b-row>
 
@@ -69,7 +69,7 @@
 
     <b-row align-h="center" class="mt-5">
       <b-col cols="10">
-        <h2>Setting Concept</h2>
+        <h1>Setting Concept</h1>
       </b-col>
     </b-row>
 

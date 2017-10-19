@@ -2,8 +2,8 @@
     <b-container class="mt-5 mb-5 pt-5 pb-5">
         <b-row align-h="center" class="my-4">
             <b-col xl="10">
-                <!-- <b-button to="/">Back</b-button> -->
-                <b-breadcrumb :items="items" />
+                <!-- <b-button to="/">Back</b-button>-->
+                <!-- <b-breadcrumb :items="items" /> -->
             </b-col>
         </b-row>
         

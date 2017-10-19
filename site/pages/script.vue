@@ -4,7 +4,7 @@
 
             <b-row align-h="center">
                 <b-col cols="10">
-                    <h2>Script</h2>
+                    <h1>Script</h1>
                 </b-col>
             </b-row>
 
@@ -40,7 +40,7 @@
 
             <b-row align-h="center" class="mt-4">
                 <b-col cols="9">
-                    <h3>Short</h3>
+                    <h2>Short</h2>
                 </b-col>
             </b-row>
 
@@ -52,7 +52,7 @@
 
             <b-row align-h="center" class="mt-4">
                 <b-col cols="9">
-                    <h3>Long</h3>
+                    <h2>Long</h2>
                 </b-col>
             </b-row>
 

@@ -27,7 +27,7 @@
           <b-nav-item to="/" exact>Home</b-nav-item>
           <b-nav-item to="/script">Script</b-nav-item>
           <b-nav-item to="/concept">Concepts</b-nav-item>
-          <b-nav-item to="/storyboard" disabled>Storyboard</b-nav-item>
+          <b-nav-item to="/storyboard">Storyboard</b-nav-item>
           <b-nav-item to="/animatic" disabled>Animatic</b-nav-item>
           <b-nav-item to="/final" disabled>Final</b-nav-item>
         </b-nav>
