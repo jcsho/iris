@@ -1,6 +1,7 @@
 <template>
   <div>
 
+    <!-- heading -->
     <b-container class="my-5 py-5">
       <b-row align-h="center">
         <b-col cols="10">
@@ -8,12 +9,14 @@
         </b-col>
       </b-row>
 
+      <!-- Team member names heading -->
       <b-row align-h="center" class="mt-4">
         <b-col cols="9">
           <h4>Meet the Team</h4>
         </b-col>
       </b-row>
 
+      <!-- Team member names (alphabetical) -->
       <b-row align-h="center">
         <b-col cols="9">
           <ul>
@@ -26,48 +29,55 @@
         </b-col>
       </b-row>
 
+      <!-- Blog Heading-->
       <b-row align-h="center" class="mt-4">
         <b-col cols="9">
           <h4>Blog</h4>
         </b-col>
       </b-row>
 
+      <!-- Blogs -->
       <b-row align-h="center">
         <b-col cols="10">
 
+          <!-- Blog Week 5-->
           <ul class="list-unstyled">
             <nuxt-link to="/blog/week5">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/storyboard/3.5.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 5 - Storyboard</h5>
-                <p>The storyboard </p>
+                <p>The storyboard is a culmination of the script and concept art combined to visualize important shots. An animatic is also created to explain design decisions and important parallels across multiple frames.</p>
               </b-media>
             </nuxt-link>
 
+            <!-- Blog Week 4-->
             <nuxt-link to="/blog/week4">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/concept/Character Sheet Sketch Colored.jpg" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 4 - Character Design</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
+                <p>Iris is portrayed as an innocent girl with a cheerful appearance. These character traits are materialized into Iris' concept with puffy cheeks and petite figure. Inspiration is also drawn from similar fairytales to enhance Iris' features.</p>
               </b-media>
             </nuxt-link>
 
+            <!-- Blog Week 3-->
             <nuxt-link to="/blog/week3">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/ideation/over-the-garden-wall.jpg" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 3 - Environment Design</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
+                <p>Parallels are drawn from reference materials in the creation of </p>
               </b-media>
             </nuxt-link>
 
+            <!-- Blog Week 2-->
             <nuxt-link to="/blog/week2">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/script-blank.png" width="240" height="150" />
                 <h5 class="mt-0 mb-1">Week 2 - Script</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, lacus et vehicula eleifend, nulla nunc malesuada ligula, id aliquam augue erat at elit. Mauris augue nisl, egestas in nunc vitae, eleifend vulputate eros. Curabitur at mauris interdum, molestie quam in, cursus velit.</p>
+                <p>The script takes the ideas of the inspirations further by refining the several </p>
               </b-media>
             </nuxt-link>
 
+            <!-- Blog Week 1-->
             <nuxt-link to="/blog/week1">
               <b-media tag="li" class="px-5 pt-4 pb-4 blog">
                 <b-img slot="aside" src="/img/ideation/steven-universe-starry-sky.png" width="240" height="150" />

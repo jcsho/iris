@@ -2,7 +2,7 @@
     <b-container class="mt-5 mb-5 pt-5 pb-5">
         <b-row align-h="center" class="my-3">
             <b-col xl="10">
-                <h1>Week 4 - Environment Design</h1>
+                <h1>Week 3 - Environment Design</h1>
             </b-col>
         </b-row>
 

@@ -1,8 +1,15 @@
 <template>
     <b-container class="mt-5 mb-5 pt-5 pb-5">
+        <b-row align-h="center" class="my-4">
+            <b-col xl="10">
+                <!-- <b-button to="/">Back</b-button> -->
+                <b-breadcrumb :items="items" />
+            </b-col>
+        </b-row>
+        
         <b-row align-h="center" class="my-3">
             <b-col xl="10">
-                <h1>Week 3 - Character Design</h1>
+                <h1>Week 4 - Character Design</h1>
             </b-col>
         </b-row>
 
@@ -15,12 +22,12 @@
         <b-row align-h="center">
             <b-col xl="8">
                 <figure>
-                    <b-img src="/img/concept/Character Sketch - Lightroom edit.jpg" 
-                        alt="Character initial sketches" 
+                    <b-img src="/img/ideation/frozen-young-anna.png" 
+                        alt="Character concept inspiration" 
                         fluid 
-                        v-b-tooltip.hover title="Character Sketches"
+                        v-b-tooltip.hover title="Character inspiration"
                         />
-                    <figcaption>Figure 1</figcaption>
+                    <figcaption>Figure 1 - Young Anna from Frozen(2013), Disney</figcaption>
                 </figure>
             </b-col>
         </b-row>
@@ -41,7 +48,7 @@
                         fluid 
                         v-b-tooltip.hover title="Character Sketches Colored"
                         />
-                    <figcaption>Figure 2</figcaption>
+                    <figcaption>Figure 2 - Character Sketch Colored</figcaption>
                 </figure>
             </b-col>
         </b-row>
@@ -51,7 +58,19 @@
 
 <script>
 export default {
+  layout: 'default',
 
+  data: function () {
+    return {
+      items: [{
+        text: 'Home',
+        href: '/'
+      }, {
+        text: 'Week 4',
+        active: true
+      }]
+    }
+  }
 }
 </script>
 
