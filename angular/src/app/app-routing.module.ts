@@ -7,7 +7,7 @@ import { ConceptComponent } from './concept/concept.component';
 import { StoryboardComponent } from './storyboard/storyboard.component';
 
 const appRoutes : Routes = [
-    { path: '/', component: HomeComponent },
+    { path: '', component: HomeComponent },
     { path: 'script', component: ScriptComponent },
     { path: 'concept', component: ConceptComponent },
     { path: 'storyboard', component: StoryboardComponent }
