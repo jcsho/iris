@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Iris - Animated Short';
 
   myStyle: object = {};
   myParams: object = {};
@@ -15,7 +14,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.myStyle = {
-      'position': 'fixed',
+      'position': 'absolute',
       'width': '100%',
       'height': '100%',
       'z-index': -1,
@@ -28,14 +27,40 @@ export class AppComponent implements OnInit {
     this.myParams = {
       particles: {
         number: {
-          value: 200,
+          value: 40,
         },
         color: {
-          value: '#ff00ff'
+          value: '#ffffff'
         },
         shape: {
           type: 'star'
         },
+        line_linked: {
+          enable: false
+        },
+        move: {
+          speed: 1,
+          outmode: "out"
+        },
+        size: {
+          value: 5
+        },
+        opacity: {
+          anim: {
+            enable: true,
+            speed: 1
+          }
+        }
+      },
+      interactivity: {
+        events: {
+          onhover: {
+            enable: false
+          },
+          onclick: {
+            enable: false
+          }
+        }
       }
     };
   }

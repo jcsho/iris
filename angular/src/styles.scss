@@ -1,82 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
-// html {
-//     min-height: 100%;
-//     position: relative;
-// }
+html {
+    min-height: 100%;
+    position: relative;
+}
 
-// body {
-//     height: 100%;
-//     font-family: "Raleway";
+body {
+    height: 100%;
+    font-family: "Raleway";
     
-//     &::-webkit-scrollbar {
-//         width: 0.4em;
-//     }
+    &::-webkit-scrollbar {
+        width: 0.4em;
+    }
     
-//     &::-webkit-scrollbar-track {
-//         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-//     }
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
     
-//     &::-webkit-scrollbar-thumb {
-//         background-color: darkgrey;
-//         outline: 1px solid slategrey;
-//         border-radius: 1em;
-//     }
-// }
+    &::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+        border-radius: 1em;
+    }
+}
 
-// .page-enter-active, .page-leave-active {
-//     transition: opacity .5s;
-// }
+.container {
+    background: -moz-linear-gradient(top, rgba(200,200,200,0.4) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(200,200,200,0.4) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(200,200,200,0.4) 0%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c8c8c8', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+    border-radius: 1rem;
+    color: white;
+}
 
-// .page-enter, .page-leave-to {
-//     opacity: 0;
-// }
+a {
+    text-decoration: none;
+    color: white;
 
-// .container {
-//     background: -moz-linear-gradient(top, rgba(200,200,200,0.4) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
-//     background: -webkit-linear-gradient(top, rgba(200,200,200,0.4) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
-//     background: linear-gradient(to bottom, rgba(200,200,200,0.4) 0%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-//     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c8c8c8', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-//     border-radius: 2rem;
-//     color: white;
-// }
+    &:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
 
-// a {
-//     text-decoration: none;
-//     color: white;
-
-//     &:hover {
-//         color: rgb(255, 255, 255);
-//         text-decoration: none;
-//     }
-// }
-
-// .breadcrumb {
-//     background-color: transparent;
-
-//     &.active {
-//         color: grey;
-//     }
-// }
-
-// .background {
-//     background: #270f36;
-//     /* Old browsers */
-//     background: -moz-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
-//     /* FF3.6-15 */
-//     background: -webkit-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
-//     /* Chrome10-25,Safari5.1-6 */
-//     background: linear-gradient(to bottom, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
-//     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-//     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#270f36', endColorstr='#fd9d7f', GradientType=0);
-//     /* IE6-9 */
-//     display: block;
-//     position: absolute;
-//     top: 0;
-//     bottom: 0;
-//     left: 0;
-//     right: 0;
-//     overflow: hidden;
-//     width: 100%;
-//     height: 100%;
-//     z-index: -1;
-//   }
+.background {
+    background: #270f36;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#270f36', endColorstr='#fd9d7f', GradientType=0);
+    /* IE6-9 */
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
