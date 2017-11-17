@@ -11,7 +11,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/img/iris1.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:300' }, { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=League+Script' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:300, 500' }, { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=League+Script' }
     ]
   },
   /*
@@ -40,10 +40,7 @@ module.exports = {
     '@nuxtjs/bootstrap-vue'
   ],
   css: [
-    '@/assets/scss/main.scss'
-  ],
-  plugins: [
-    // '~/plugins/vue-particles'
-    { src: '~/plugins/vue-particles', ssr: false }
+    '@/assets/scss/main.scss',
+    '@/assets/scss/parallax-stars.sass'
   ]
 }

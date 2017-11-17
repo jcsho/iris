@@ -111,7 +111,7 @@
 
     <b-row align-h="center" class="mt-2">
       <b-col cols="9">
-        <b-img src="/img/concept/Starry Sky.png" alt="Setting Concept Art" fluid v-b-tooltip.hover.bottom title="Starry Sky Setting Concept - Ioana" />
+        <b-img src="/img/concept/Starry-Sky.png" alt="Setting Concept Art" fluid v-b-tooltip.hover.bottom title="Starry Sky Setting Concept - Ioana" />
       </b-col>
     </b-row>
 

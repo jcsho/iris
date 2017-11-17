@@ -1,18 +1,5 @@
 <template>
-  <div>
-
-    <div class="background">
-      <vue-particles 
-        color="#dedede"
-        :particleOpacity="0.7"
-        :particlesNumber="80"
-        shapeType="star"
-        :particleSize="3"
-        :lineLinked="false"
-        :moveSpeed="1"
-        :hoverEffect="false"
-        :clickEffect="false"/>
-    </div>
+    <div>
 
     <b-navbar toggleable="md" type="dark">
 
@@ -43,13 +30,41 @@
 .background {
   background: #270f36;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  background: -moz-linear-gradient(
+    top,
+    #270f36 0%,
+    #642b6b 27%,
+    #c86b98 67%,
+    #f09f9c 80%,
+    #ffc19f 92%,
+    #fd9d7f 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #270f36 0%,
+    #642b6b 27%,
+    #c86b98 67%,
+    #f09f9c 80%,
+    #ffc19f 92%,
+    #fd9d7f 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #270f36 0%, #642b6b 27%, #c86b98 67%, #f09f9c 80%, #ffc19f 92%, #fd9d7f 100%);
+  background: linear-gradient(
+    to bottom,
+    #270f36 0%,
+    #642b6b 27%,
+    #c86b98 67%,
+    #f09f9c 80%,
+    #ffc19f 92%,
+    #fd9d7f 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#270f36', endColorstr='#fd9d7f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#270f36",
+      endColorstr="#fd9d7f",
+      GradientType=0
+    );
   /* IE6-9 */
   display: block;
   position: absolute;
@@ -62,5 +77,4 @@
   height: 100%;
   z-index: -1;
 }
-
 </style>
