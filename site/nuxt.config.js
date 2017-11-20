@@ -40,7 +40,7 @@ module.exports = {
     '@nuxtjs/bootstrap-vue'
   ],
   css: [
-    '@/assets/scss/main.scss',
-    '@/assets/scss/parallax-stars.sass'
+    '@/assets/scss/main.scss'/*,
+    '@/assets/scss/parallax-stars.sass'*/
   ]
 }
