@@ -16,7 +16,7 @@
           <b-nav-item to="/concept">Concepts</b-nav-item>
           <b-nav-item to="/storyboard">Storyboard</b-nav-item>
           <b-nav-item to="/animatic">Animatic</b-nav-item>
-          <b-nav-item to="/final" disabled>Final</b-nav-item>
+          <b-nav-item to="/final">Final</b-nav-item>
         </b-nav>
       </b-collapse>
     </b-navbar>

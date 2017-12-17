@@ -1,13 +1,17 @@
 <template>
-    <b-jumbotron header="Page under construction" lead="This link is being worked on and will be coming soon">
-        <p>Visit another page</p>
-        <b-btn variant="primary" to="/">Go back to home</b-btn>
-    </b-jumbotron>
+    <b-container class="my-5 py-5">
+        <b-embed 
+                    type="iframe"
+                    aspect="16by9"
+                    src="https://www.youtube.com/embed/u3KGF5W0SAU?rel=0&amp;showinfo=0"
+                    allowfullscreen
+                    />
+    </b-container>
 </template>
 
 <script>
 export default {
-
+  layout: 'navbar'
 }
 </script>
 
