@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  layout: 'default',
+  layout: 'navbar',
 
   data: function () {
     return {

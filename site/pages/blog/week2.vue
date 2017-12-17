@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  layout: 'default'
+  layout: 'navbar'
 }
 </script>
 

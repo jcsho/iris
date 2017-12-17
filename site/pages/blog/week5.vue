@@ -124,7 +124,7 @@
 
 <script>
 export default {
-  layouts: 'default'
+  layout: 'navbar'
 }
 </script>
 
